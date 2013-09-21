@@ -18,8 +18,8 @@ development:
   adapter: mysql
   database: emirates_development
   pool: 5
-  username: root
-  password: ever1a5t
+  username: wilwizard
+  password: wasqaz48
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -46,12 +46,12 @@ test:
   adapter: mysql
   database: emirates_development
   pool: 5
-  username: root
-  password: ever1a5t
+  username: wilwizard
+  password: wasqaz48
 
 production:
   adapter: mysql
   database: emirates_development
   pool: 5
-  username: root
-  password: ever1a5t
+  username: wilwizard
+  password: wasqaz48
