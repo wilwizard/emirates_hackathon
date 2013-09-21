@@ -48,6 +48,7 @@ test:
   pool: 5
   username: wilwizard
   password: wasqaz48
+  #comment
 
 production:
   adapter: mysql
