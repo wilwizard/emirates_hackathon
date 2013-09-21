@@ -15,12 +15,11 @@
 # gem 'pg'
 #
 development:
-  adapter: postgresql
-  encoding: unicode
+  adapter: mysql
   database: emirates_development
   pool: 5
-  username: emirates
-  password:
+  username: root
+  password: ever1a5t
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -44,17 +43,15 @@ development:
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
-  adapter: postgresql
-  encoding: unicode
-  database: emirates_test
+  adapter: mysql
+  database: emirates_development
   pool: 5
-  username: emirates
-  password:
+  username: root
+  password: ever1a5t
 
 production:
-  adapter: postgresql
-  encoding: unicode
-  database: emirates_production
+  adapter: mysql
+  database: emirates_development
   pool: 5
-  username: emirates
-  password:
+  username: root
+  password: ever1a5t
