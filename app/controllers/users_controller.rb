@@ -5,7 +5,7 @@ class UsersController < ApplicationController
 	end
 
 	def hello_world
-		render :text => hello_world
+		render :text => "hello world asdfasdf\n"
 	end
 
 	def user1_pic
