@@ -1,7 +1,7 @@
 Emirates::Application.routes.draw do
 
-  resources :user, :only => :create 
-  resources :trip, :only => :create 
+  resources :users, :only => :create 
+  resources :trips, :only => [:create, :index]
   root :to => 'users#hello_world'
 
 end

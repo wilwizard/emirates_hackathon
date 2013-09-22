@@ -6,6 +6,7 @@ gem 'rails', '4.0.0'
 # Use postgresql as the database for Active Record
 group :development do
 	gem 'mysql'
+	gem 'awesome_print'
 end
 
 group :production do

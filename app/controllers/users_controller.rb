@@ -8,5 +8,8 @@ class UsersController < ApplicationController
 		JSON.parse(request.body)
 	end
 
+	def user1_pic
+		"http://emaya.us/emirates/profile_pic.jpg"
+	end
 
 end
