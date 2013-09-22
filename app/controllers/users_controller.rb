@@ -5,11 +5,11 @@ class UsersController < ApplicationController
 	end
 
 	def hello_world
-		JSON.parse(request.body)
+		render :text => hello_world
 	end
 
 	def user1_pic
-		"http://emaya.us/emirates/profile_pic.jpg"
+		render :text => "http://emaya.us/emirates/profile_pic.jpg"
 	end
 
 end
