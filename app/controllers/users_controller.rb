@@ -5,6 +5,8 @@ class UsersController < ApplicationController
 	end
 
 	def hello_world
-		render :text => "hello world"
+		JSON.parse(request.body)
 	end
+
+
 end
