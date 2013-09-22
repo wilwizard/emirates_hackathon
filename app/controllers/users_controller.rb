@@ -5,6 +5,6 @@ class UsersController < ApplicationController
 	end
 
 	def hello_world
-		render "hello world"
+		render :text => "hello world"
 	end
 end
